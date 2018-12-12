@@ -1852,7 +1852,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49ffff;
+  background: #e2c175;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2640,22 +2640,6 @@ body {
 .headband {
   height: 1.5px;
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
-}
-.header {
-  line-height: 1.5;
-}
-.header-inner {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.posts-expand {
-  padding-top: 80px;
-}
-.posts-expand .post-meta {
-  margin: 5px 0px 0px 0px;
-}
-.post-button {
-  margin-top: 0px;
 }
 .container .header-inner {
   width: 100%;
