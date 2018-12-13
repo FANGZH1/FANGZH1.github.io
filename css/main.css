@@ -1852,7 +1852,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6afb8b;
+  background: #7f0359;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2639,6 +2639,7 @@ body {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  background: rgba(255,255,255,0.7);
 }
 .headband {
   height: 1.5px;
@@ -2690,12 +2691,6 @@ body {
 }
 .menu .menu-item a:hover {
   border-bottom-color: rgba(161,102,171,0);
-}
-.post {
-  margin-bottom: 50px;
-  padding: 45px 36px 36px 36px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: #fff;
 }
 .posts-expand .post-title {
   font-size: 26px;
@@ -3332,10 +3327,13 @@ code.description {
   }
 }
 * {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
+  cursor: url("/images/cursor-default-outline.png"), auto !important;
 }
 :active {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
+  cursor: url("/images/cursor-pointer.png"), auto !important;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: #ffeb3b;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
