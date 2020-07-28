@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>FANGZH</title>
   
-  <subtitle>MISC1</subtitle>
+  <subtitle>技术博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fangzh1.github.io/"/>
-  <updated>2018-12-11T15:04:31.878Z</updated>
+  <updated>2020-07-28T15:21:55.880Z</updated>
   <id>https://fangzh1.github.io/</id>
   
   <author>
@@ -17,47 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>麻衣酱</title>
-    <link href="https://fangzh1.github.io/2018/12/11/%E9%BA%BB%E8%A1%A3%E9%85%B1/"/>
-    <id>https://fangzh1.github.io/2018/12/11/麻衣酱/</id>
-    <published>2018-12-11T08:38:48.000Z</published>
-    <updated>2018-12-11T15:04:31.878Z</updated>
+    <title>github+hexo博客搭建</title>
+    <link href="https://fangzh1.github.io/2020/07/28/my-first-blog/"/>
+    <id>https://fangzh1.github.io/2020/07/28/my-first-blog/</id>
+    <published>2020-07-28T14:04:05.000Z</published>
+    <updated>2020-07-28T15:21:55.880Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;&lt;em&gt;麻衣麻衣麻衣酱&lt;/em&gt;&lt;br&gt;&lt;img src=&quot;/2018/12/11/麻衣酱/IMG_1288.jpg&quot;
-        
-      
+      时隔1年重新把之前搭好的博客找了回来，准备把它变成自己的技术博客，就总结下hexo博客搭建的方法吧。
     
     </summary>
     
+      <category term="默认分类" scheme="https://fangzh1.github.io/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://fangzh1.github.io/2018/12/11/hello-world/"/>
-    <id>https://fangzh1.github.io/2018/12/11/hello-world/</id>
-    <published>2018-12-11T01:22:43.649Z</published>
-    <updated>2018-12-11T09:11:45.456Z</updated>
     
-    <summary type="html">
+      <category term="hexo" scheme="https://fangzh1.github.io/tags/hexo/"/>
     
-      
-      
-        
-        
-          &lt;p&gt;hello&lt;/p&gt;
-
-        
-      
+      <category term="blog" scheme="https://fangzh1.github.io/tags/blog/"/>
     
-    </summary>
-    
+      <category term="learning" scheme="https://fangzh1.github.io/tags/learning/"/>
     
   </entry>
   
