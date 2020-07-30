@@ -5,12 +5,13 @@
     <url>%2F2020%2F07%2F28%2Fmy-first-blog%2F</url>
     <content type="text"><![CDATA[1 准备工作1.1 安装Node.jsNode.js官网 1.2 安装gitgit官网 1.3 检验Git是否安装成功123$ git --version $ node -v $ npm -v 桌面右键选Git Bash Here 输出版本信息则表示安装成功 1.4 安装Hexo在一个你认为合适的地方新建一个文件夹，重命名文件夹（如：我的文件夹为：D/hexotxt），博客相关文件将储存在此文件夹下，在该文件夹下右键鼠标，点击 Git Bash Here,输入以下npm命令：12$ npm install hexo-cli -g $ npm install hexo-deployer-git --save 1.5 Hexo 初始化配置安装好hexo后输入：1$ hexo init 来初始化，这个过程可能有些慢在本文件夹下新增了很多文件 ，找到_config.yml ，这个文件就是网站主题的的配置文件，后面和github page关联和切换主题时，需要使用到。 1.6 开启服务1.6.1 编译生成静态页面1hexo g 1.6.2 启动本地服务1hexo s hexo s是开启本地预览服务，打开浏览器访问 http://localhost:4000 即可看到内容，如果碰到浏览器一直在转圈但是加载不出来的问题，一般是因为端口占用的缘故，4000这个端口太常见了，如何解决端口冲突问题请参考：http://blog.liuxianan.com/windows-port-bind.html 第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，打开时就是这个样子： 2.自定义blog2.1 创建github仓库在你的github页面右上角点击new repository 前缀一定要和Owner一致，因为我的已经建过了所以这里显示重名 建好后进入仓库页面，复制你的SSH，修改_config.yml文件的时候会用到 2.2 将Hexo博客部署到Github上首先打开hexo站点的配置文件(根文件夹下的_config.yml)，找到deloy并填写如下配置：1234deploy: type: git repository: https://github.com/FANGZH1/FANGZH1.github.io #用户名改成自己的 branch: master 2.3 设置Next主题2.3.1 安装Next在GitBash中cd到博客根目录下，然后使用git clone命令将Next仓库克隆到hexo目录下的themes/next，即命令是git clone https://github.com/theme-next/hexo-theme-next.git themes/next如果比较慢的话也可以直接在Github页面上选择绿色的按钮Clone or Download，点击下载zip压缩包。解压到themes/next就行 2.3.2 设置hexo博客为Next主题在hexo站点的配置文件(根文件夹下的_config.yml)中找到theme:将其修改为：123## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: next 2.3.3 测试主题在博客根文件夹的GitBash中输入1$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo s (三步一起执行)等待启动完成在浏览器中输入http://localhost:4000即可查看安装好的Next主题！ 2.3.4 部署上线执行完hexo s后如果觉得没毛病就可以部署上线了，命令为：1hexo d 打开你的username.github.oi就可以了 至此我们的hexo+github的博客就搭建完成了 附录Q1:如何让博文列表不显示全部内容默认情况下，生成的博文目录会显示全部的文章内容，如何设置文章摘要的长度呢？在合适的位置加上&lt;!--more--&gt;即可]]></content>
       <categories>
-        <category>默认分类</category>
+        <category>learning</category>
       </categories>
       <tags>
         <tag>hexo</tag>
         <tag>blog</tag>
-        <tag>learning</tag>
+        <tag>hext</tag>
+        <tag>github</tag>
       </tags>
   </entry>
 </search>
